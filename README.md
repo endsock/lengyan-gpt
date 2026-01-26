@@ -2,9 +2,10 @@
 
 这是一个基于GPT模型的楞严经学习工具，它可以帮助用户学习楞严经的各种内容。
 项目采用了圆瑛法师的楞严经PDF书籍，已经将其转换为简体中文的markdown文件，放在yuanying_doc目录下。
+
 并且同时又使用成观法师的楞严经义贯PDF，已经将其转换为简体中文的markdown文件，放在chengguan_doc目录下。
 
-学习时，可以打开vscode，使用roo code配合google gemini3进行翻译，或者提问。
+这精心整理的两份楞严经的资料可以作为GPT的知识库，用户可以在vscode中使用roo code配合google gemini3进行翻译，或者提问。
 
 promot模板如下：
 ```
