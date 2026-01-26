@@ -45,7 +45,7 @@ Markdown 输出。
 输出位置
 将最终 Markdown 文件输出到：
 
-@gpt_doc/楞严经第二卷_白话译文_Gemiv1.md
+@gemini_doc/楞严经第二卷_白话译文_Gemiv1.md
 ```
 
 ### 提问的promot模板如下：
