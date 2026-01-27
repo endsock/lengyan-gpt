@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: '楞严GPT',
-  description: '基于Gemini3翻译的楞严经',
+  description: 'Gemini3-Pro基于圆瑛法师的楞严经讲义与成观法师的楞严经义贯翻译的楞严经白话版',
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },

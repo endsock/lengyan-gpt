@@ -93,5 +93,5 @@ Markdown 输出。
 ```
 pnpm add -D vitepress
 pnpm vitepress build gemini_doc
-pnpm vitepress dev gemini_doc --host 0.0.0.0 --port 5173
+pnpm vitepress preview gemini_doc --host 0.0.0.0 --port 5173
 ```
