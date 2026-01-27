@@ -3,7 +3,7 @@ layout: home
 hero:
   name: 楞严GPT
   text: 楞严经目录
-  tagline: 基于Gemini3翻译的楞严经
+  tagline: Gemini3-Pro基于《圆瑛法师-楞严经讲义》与《成观法师-楞严经义贯》翻译的楞严经白话版
 ---
 
 # 楞严经目录
