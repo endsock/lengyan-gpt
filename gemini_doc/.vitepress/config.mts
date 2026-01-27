@@ -1,0 +1,37 @@
+import { defineConfig } from 'vitepress'
+export default defineConfig({
+  title: '楞严GPT',
+  description: '基于Gemini3翻译的楞严经',
+  themeConfig: {
+    nav: [
+      { text: '首页', link: '/' },
+      { text: '楞严经第一卷', link: '/1-楞严经第一卷_白话译文_Gemiv1' }
+    ],
+    sidebar: [
+      { text: '楞严经第一卷', link: '/1-楞严经第一卷_白话译文_Gemiv1' },
+      { text: '楞严经第二卷', link: '/2-楞严经第二卷_白话译文_Gemiv1' },
+      { text: '楞严经第三卷', link: '/3-楞严经第三卷_白话译文_Gemiv1' },
+      { text: '楞严经第四卷', link: '/4-楞严经第四卷_白话译文_Gemiv1' },
+      { text: '楞严经第五卷', link: '/5-楞严经第五卷_白话译文_Gemiv1' },
+      { text: '楞严经第六卷', link: '/6-楞严经第六卷_白话译文_Gemiv1' },
+      { text: '楞严经第七卷', link: '/7-楞严经第七卷_白话译文_Gemiv1' },
+      { text: '楞严经第八卷', link: '/8-楞严经第八卷_白话译文_Gemiv1' },
+      { text: '楞严经第九卷', link: '/9-楞严经第九卷_白话译文_Gemiv1' },
+      { text: '楞严经第十卷', link: '/10-楞严经第十卷_白话译文_Gemiv1' },
+      { text: '楞严经第十一卷', link: '/11-楞严经第十一卷_白话译文_Gemiv1' },
+      { text: '楞严经第十二卷', link: '/12-楞严经第十二卷_白话译文_Gemiv1' },
+      { text: '楞严经第十三卷', link: '/13-楞严经第十三卷_白话译文_Gemiv1' },
+      { text: '楞严经第十四卷', link: '/14-楞严经第十四卷_白话译文_Gemiv1' },
+      { text: '楞严经第十五卷', link: '/15-楞严经第十五卷_白话译文_Gemiv1' },
+      { text: '楞严经第十六卷', link: '/16-楞严经第十六卷_白话译文_Gemiv1' },
+      { text: '楞严经第十七卷', link: '/17-楞严经第十七卷_白话译文_Gemiv1' },
+      { text: '楞严经第十八卷', link: '/18-楞严经第十八卷_白话译文_Gemiv1' },
+      { text: '楞严经第十九卷', link: '/19-楞严经第十九卷_白话译文_Gemiv1' },
+      { text: '楞严经第二十卷', link: '/20-楞严经第二十卷_白话译文_Gemiv1' },
+      { text: '楞严经第二十一卷', link: '/21-楞严经第二十一卷_白话译文_Gemiv1' },
+      { text: '楞严经第二十二卷', link: '/22-楞严经第二十二卷_白话译文_Gemiv1' },
+      { text: '楞严经第二十三卷', link: '/23-楞严经第二十三卷_白话译文_Gemiv1' },
+      { text: '楞严经第二十四卷', link: '/24-楞严经第二十四卷_白话译文_Gemiv1' }
+    ]
+  }
+})

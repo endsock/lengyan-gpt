@@ -88,3 +88,10 @@ Markdown 输出。
     *   **描述性大纲**：梳理文件内容，生成一份详细的结构化大纲，涵盖主要情节、事件或核心论点。
 3.  **写入操作**：将生成的标题与大纲插入到对应 Markdown 文件的最顶部。
 ```
+
+#vitepress部署
+```
+pnpm add -D vitepress
+pnpm vitepress build gemini_doc
+pnpm vitepress dev gemini_doc --host 0.0.0.0 --port 5173
+```
