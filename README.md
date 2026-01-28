@@ -95,3 +95,16 @@ pnpm add -D vitepress
 pnpm vitepress build gemini_doc
 pnpm vitepress preview gemini_doc --host 0.0.0.0 --port 5173
 ```
+
+# docker compose 部署
+```
+services:
+  ly:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - /data/library/lengyan-gpt:/app
+    ports:
+      - "5173:5173"
+    command: sh -c "npm install && npx vitepress build gemini_doc && npx vitepress preview gemini_doc --host 0.0.0.0 --port 5173"
+```
